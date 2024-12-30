@@ -1,0 +1,518 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background-color: #e2e2e2;
+    height: 100vh;
+
+}
+
+.hero .navbar {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 25px;
+}
+
+.hero .navbar h3 {
+    color: rgb(70, 5, 131);
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.hero .navbar h3 span {
+    color: #fd0303;
+}
+
+.hero .navbar .link {
+    text-align: center;
+    margin-top: -18px;
+}
+
+.hero .navbar .link a {
+    padding: 10px;
+    font-size:20px;
+    transition: 0.3s;
+    color: #460583;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero .navbar .link a:hover {
+    color: #fd0303;
+}
+
+.hero .navbar .lin {
+    text-align: right;
+    margin-top: -20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.hero .navbar .lin a {
+    background-color:#95cde4;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    transition: 0.5s;
+}
+
+.hero .navbar .lin a:hover {
+    box-shadow: 0 0 8px black;
+    
+}
+
+.hero .content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 14%;
+
+}
+
+.hero .content h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero .content p {
+    margin-top: 3%;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero .content .get {
+    margin-top: 4%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero .content .get a {
+    background-color: #95cde4;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    transition: 0.5s;
+}
+
+.hero .content .get a:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.hero .content .vid {
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: -22px;
+}
+
+.hero .content .vid a {
+    background-color: #95cde4;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    transition: 0.5s;
+}
+
+.hero .content .vid a:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.hero .content .link1 {
+    margin-top: 6%;
+}
+
+.hero .content .link1 a {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+
+.hero .content .link1 a span {
+    margin-right: 8px;
+    background-color: #95cde4;
+    padding: 3px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hero .content .link1 a span:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.hero .content .img1 {
+    position: absolute;
+    top:30%;
+    margin-left: 25%;
+
+}
+
+.hero .content .img1 img {
+    width: 130px;
+    height: auto;
+    
+}
+
+.hero .content .img2 {
+    position: absolute;
+    right:10%;
+    top:28%;
+}
+
+.hero .content .img2 img {
+    width: 450px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.hero .content .img2 img:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.hero-2 {
+    background-color: #e2e2e2;
+    height: 70vh;
+}
+
+.hero-2 .content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hero-2 .content h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.hero-2 .content .box {
+    display: flex;
+    margin-top: 8%;
+    
+}
+
+.hero-2 .content .box .box1 {
+    margin-right: 40px;
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #95cde4;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.hero-2 .content .box .box1:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.hero-2 .content .box .box1 i {
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: #e2e2e2;
+    padding: 12px ;
+    border-radius: 12px;
+}
+
+.hero-2 .content .box .box1 h3 {
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+.hero-2 .content .box .box2 {
+    margin-right: 40px;
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #95cde4;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.hero-2 .content .box .box2:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.hero-2 .content .box .box2 i {
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: #e2e2e2;
+    padding: 12px ;
+    border-radius: 12px;
+}
+
+.hero-2 .content .box .box2 h3 {
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+
+
+.hero-2 .content .box .box3 {
+    margin-right: 40px;
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #95cde4;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.hero-2 .content .box .box3:hover{
+    box-shadow: 0 0 10px;
+}
+
+.hero-2 .content .box .box3 i {
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: #e2e2e2;
+    padding: 12px ;
+    border-radius: 12px;
+}
+
+.hero-2 .content .box .box3 h3 {
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+.hero-2 .content .box .box4 {
+    margin-right: 40px;
+    text-align: center;
+    padding: 30px 15px;
+    background-color: #95cde4;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
+.hero-2 .content .box .box4:hover{
+    box-shadow: 0 0 10px;
+}
+
+.hero-2 .content .box .box4 i {
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: #e2e2e2;
+    padding: 12px ;
+    border-radius: 12px;
+}
+
+.hero-2 .content .box .box4 h3 {
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+.hero-3 {
+    background-color: #e2e2e2;
+    height: 90vh;
+}
+
+.hero-3 .content {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+}
+
+.hero-3 .content h1 {
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 2%;
+}
+
+
+.hero-3 .content .img {
+    margin-top: 9%;
+    display: flex;
+    
+}
+
+.hero-3 .content .img .box1 {
+    border: 0.5px solid #ccc;
+    width:19.7%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero-3 .content .img .box1 img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hero-3 .content .img .box1 h4 {
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.hero-3 .content .img .box1 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.hero-3 .content .img .box1 a {
+    display: flex;
+    margin-left: 88%;
+    margin-top: -25px;
+    font-size: 18px;
+    background-color: #95cde4;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.hero-3 .content .img .box1 a:hover {
+    box-shadow: 0 0 5px black;
+}
+
+
+.hero-3 .content .img .box2 {
+    border: 0.5px solid #ccc;
+    width:19.7%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero-3 .content .img .box2 img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hero-3 .content .img .box2 h4 {
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.hero-3 .content .img .box2 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.hero-3 .content .img .box2 a {
+    display: flex;
+    margin-left: 88%;
+    margin-top: -25px;
+    font-size: 18px;
+    background-color: #95cde4;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.hero-3 .content .img .box2 a:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.hero-3 .content .img .box3 {
+    border: 0.5px solid #ccc;
+    width:19.7%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero-3 .content .img .box3 img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hero-3 .content .img .box3 h4 {
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.hero-3 .content .img .box3 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.hero-3 .content .img .box3 a {
+    display: flex;
+    margin-left: 88%;
+    margin-top: -25px;
+    font-size: 18px;
+    background-color: #95cde4;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.hero-3 .content .img .box3 a:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.hero-3 .content .img .box4 {
+    border: 1px solid #ccc;
+    width:19.7%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero-3 .content .img .box4 img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.hero-3 .content .img .box4 h4 {
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.hero-3 .content .img .box4 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.hero-3 .content .img .box4 a {
+    display: flex;
+    margin-left: 88%;
+    margin-top: -25px;
+    font-size: 18px;
+    background-color: #95cde4;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.hero-3 .content .img .box4 a:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.hero-3 .content .img .box1,.box2,.box3,.box4 {
+    margin-right: 5%;
+    box-shadow: 0 0 8px black;
+
+}
+
+
